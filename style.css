@@ -1,23 +1,19 @@
 body {
-  font-family: sans-serif;
-  background-color: #fefefe;
-  margin: 0;
-  padding: 20px;
+  font-family: 'Press Start 2P', monospace;
+  background-color: #111;
+  color: #0f0;
 }
 
 #game-container {
-  max-width: 600px;
-  margin: auto;
-  background: #fff;
-  border: 2px solid #333;
-  border-radius: 10px;
+  border: 4px double #0f0;
+  background-color: #000;
+  color: #0f0;
   padding: 20px;
+  font-size: 12px;
 }
-
 button {
-  display: block;
-  margin-top: 10px;
-  padding: 10px;
-  font-size: 16px;
-  cursor: pointer;
+  font-family: inherit;
+  background-color: #111;
+  color: #0f0;
+  border: 2px solid #0f0;
 }
